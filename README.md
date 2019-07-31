@@ -15,6 +15,8 @@ Typical compilation steps:
 To compile against the currently running kernel (kernel headers installed):
 
     $ make linux-x86 KDIR=/lib/modules/$(uname -r)/build
+    
+    insmod suterusu.ko
 
 
 If a specific toolchain is desired for cross-compilation, provide the
